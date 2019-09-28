@@ -3,7 +3,7 @@ Predict whether income exceeds $50K/yr - SVM, Spark
 Extraction was done by Barry Becker from the 1994 Census database.
 
 > 14 Statistic Features
-1. >50K or <=50K
+1. less than 50K OR greater than or equal to 50K
 2. Age
 3. workclass
 4. Weight
@@ -12,7 +12,7 @@ Extraction was done by Barry Becker from the 1994 Census database.
 ...
 
 > Preprocessed 123 features
-1. >50K or <=50K
+1. less than 50K OR greater than or equal to 50K
 2. Age1
 3. Age2
 4. Age3
